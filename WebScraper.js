@@ -21,7 +21,6 @@ axios(url)
             })//pushing this object of title and url into the array 
         })
         console.log(articles)
-
     }).catch(err => console.log(err))
 
 app.listen(PORT, () => console.log(`server is running on PORT ${PORT}`));//listens to the port 
