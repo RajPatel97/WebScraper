@@ -23,5 +23,5 @@ axios(URL)
         console.log(articles)
     }).catch(err => console.log(err))
 
-app.listen(PORT, () => console.log(`server is running on PORT ${PORT}`));//listens to the port 
+//app.listen(PORT, () => console.log(`server is running on PORT ${PORT}`));//listens to the port 
 
